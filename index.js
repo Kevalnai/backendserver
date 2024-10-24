@@ -3,13 +3,19 @@
 //const express = require('express')
 import express from 'express'
 const app = express()
-const port = 8070
+const port = 8080
+
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
 app.get('/Twitter', (req, res) => {
+    res.send("kevalnai")
+})
+
+
+app.get('/Insta', (req, res) => {
     res.send("kevalnai")
 })
 
